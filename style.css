@@ -1,0 +1,25 @@
+/* PAGE WEB*/
+body{
+    background-color: #191919;
+}
+
+
+/* BARRE DE NAVIGATION */
+nav{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* BARRE DE RECHERCHE */
+#player_search{
+    background-color: #A5A5A5;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Enlever la surbrillance search bar */
+input:focus{
+    outline: none;
+}
