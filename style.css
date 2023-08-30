@@ -19,7 +19,7 @@ nav ul {
     padding-top: 5px;
     padding-right: 20px;
     margin: 0;;
-    display: flex; /* Utilise un modèle d'affichage flexbox pour aligner les éléments en ligne */
+    display: flex; /* flexbox pour aligner les éléments en ligne */
     justify-content: space-between; /* Espacement égal entre les éléments */
     align-items: center; /* Centre verticalement les éléments */
     background-color: black;
@@ -31,11 +31,12 @@ nav ul {
 #player_search{
     background-color: #A5A5A5;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     width: 300px;
     height: 20px;
     text-align: center;
+    font-family: consolas;
 }
 
 #search_container{
@@ -66,11 +67,43 @@ a {
 /* Transition délaie */
 a:hover{
     transition: 0.5s;
-    color: rgb(187, 10, 10);
+    color: rgb(255, 0, 0);
 }
 
 /* MAP ROTATION */
 #rotation{
     width: 100%;
     height: 1000px;
+}
+
+/* TITLE */
+#title{
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+
+#content{
+    text-align: left;
+    font-size: 30px;
+    color: rgba(175, 174, 174, 0.906);
+    font-family: consolas;
+}
+
+/* CHOIX PLATEFORME */
+
+#plateform_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#plateform_list{
+    border: none;
+    margin-right: 20px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
 }

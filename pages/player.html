@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7aec2fa477.js" crossorigin="anonymous"></script>
+    <script src="script/map.js"></script>
+    <script src="script/player_search.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Apex Infos</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#"><img src="images/icon_apex.png" id="home" style="width: 250px;"></a>
+            </li>
+            <li>
+                <!-- Guide pour débuter -->
+                <a href="pages/begin.html">
+                    DEBUTER
+                </a>
+            </li>
+            <li>
+                <!-- Les mouvements -->
+                <a href="pages/mouvement.html">
+                    MOUVEMENTS
+                </a>
+            </li>
+            <li>
+                <!-- News du jeux -->
+                <a href="pages/news.html">
+                    NEWS
+                </a>
+            </li>
+            <li>
+                <div id="plateform_container">
+                    <!-- Liste déroulante -->
+                    <div>
+                        <select id="plateform_list">
+                            <option value="pc">pc</option>
+                            <option value="xbox">xbox</option>
+                            <option value="ps4">ps4</option>
+                        </select>
+                    </div>
+
+                    <!-- Barre de recherche -->
+                    <div id="search_container">
+                        <input type="text" id="player_search" style="border: none;">
+                        <a href="#">
+                            <i class="fas fa-magnifying-glass" id="icon_search" onclick="search_player()"></i>
+                        </a>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </nav>
+</body>
+</html>
