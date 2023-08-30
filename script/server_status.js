@@ -1,4 +1,4 @@
-fetch(`https://api.mozambiquehe.re/bridge?auth=df7a2916db613fe7330f449f6a2ee05d&player=${player}&platform=${plateform}`)
+fetch('https://api.mozambiquehe.re/servers?auth=df7a2916db613fe7330f449f6a2ee05d')
   .then(response => response.json())
   .then(data => {
 

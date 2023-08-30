@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7aec2fa477.js" crossorigin="anonymous"></script>
+    <script src="script/map.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Apex Infos</title>
 </head>
@@ -11,32 +12,49 @@
     <nav>
         <ul>
             <li>
-                <a href="#"><img src="images/logo.png" id="home" style="width: 60px;"></a>
+                <a href="#"><img src="images/icon_apex.png" id="home" style="width: 250px;"></a>
             </li>
             <li>
+                <!-- Guide pour débuter -->
                 <a href="pages/begin.html">
-                    <i class="fas fa-play" id="begin"></i>
+                    DEBUTER
                 </a>
             </li>
             <li>
+                <!-- Les mouvements -->
                 <a href="pages/mouvement.html">
-                    <i class="fas fa-person-running" id="mouvement"></i>
+                    MOUVEMENTS
                 </a>
             </li>
             <li>
+                <!-- News du jeux -->
                 <a href="pages/news.html">
-                    <i class="far fa-newspaper" id="news"></i>
+                    NEWS
                 </a>
             </li>
             <li>
-                <div id="search_bar">
+                <!-- Barre de recherche -->
+                <div id="search_container">
                     <input type="text" id="player_search" style="border: none;">
                     <a href="#">
-                        <i class="fas fa-magnifying-glass" id="search"></i>
+                        <i class="fas fa-magnifying-glass" id="icon_search"></i>
                     </a>
                 </div>
             </li>
         </ul>
     </nav>
+
+    <!-- Status Server -->
+    <div id="server_status">
+
+    </div>
+
+    <!-- Maps -->
+    <div>
+        <div id="content">
+            
+        </div>
+        <img src="#" id="rotation">
+    </div>
 </body>
 </html>

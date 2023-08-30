@@ -1,7 +1,7 @@
 /* PAGE WEB*/
 body{
     background-color: #191919;
-    font-family: Arial;
+    font-family: ApexV2 Black;
 }
 
 /* BARRE DE NAVIGATION */
@@ -14,31 +14,41 @@ nav{
 
 nav ul {
     list-style: none; /* Supprime les puces de la liste */
-    padding: 0; /* Supprime le remplissage par défaut de la liste */
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    margin: 0;;
     display: flex; /* Utilise un modèle d'affichage flexbox pour aligner les éléments en ligne */
     justify-content: space-between; /* Espacement égal entre les éléments */
     align-items: center; /* Centre verticalement les éléments */
     background-color: black;
     text-decoration: none;
-  }
-  
-nav li {
-    margin: 0 10px; /* Ajoute de l'espace horizontal entre les éléments <li> */
 }
 
 /* BARRE DE RECHERCHE */
+/*  */
 #player_search{
     background-color: #A5A5A5;
     border-radius: 5px;
+    font-size: 20px;
     color: black;
+    width: 300px;
     height: 20px;
     text-align: center;
 }
 
-#search_bar{
+#search_container{
     background-color: #A5A5A5;
-    padding: 3px;
+    /* padding: 5px; */
     border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#icon_search{
+    font-size: 25px;
+    color: black;
+    padding-right: 20px;
 }
 
 /* Enlever la surbrillance search bar */
@@ -47,12 +57,20 @@ input:focus{
 }
 
 /* redimentionner les icons */
-i {
-    font-size: 50px;
-    color: #A5A5A5;
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
 }
 
-#search{
-    font-size: 20px;
-    color: black;
+/* Transition délaie */
+a:hover{
+    transition: 0.5s;
+    color: rgb(187, 10, 10);
+}
+
+/* MAP ROTATION */
+#rotation{
+    width: 100%;
+    height: 1000px;
 }
